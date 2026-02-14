@@ -20,7 +20,7 @@ st.title("🚦 Traffic Radar Dashboard")
 # ----------------------
 # Backend YOLO model (hidden path)
 # ----------------------
-MODEL_PATH = r"C:\Users\kirol\OneDrive - Arab Open University - AOU\Desktop\project 2\yolov8n.pt"
+MODEL_PATH = r"C:\Users\kirol\OneDrive - Arab Open University - AOU\Desktop\project3\yolov8n.pt"
 
 @st.cache_resource
 def load_model(path):
@@ -216,3 +216,4 @@ if uploaded_video is not None and start:
 # ----------------------
 st.markdown("---")
 st.markdown("Built for: **Traffic Radar Dashboard** | Powered by YOLO & Streamlit | By Eng Kirollos Ashraf")
+
