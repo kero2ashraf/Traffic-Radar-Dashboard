@@ -1,4 +1,0 @@
-streamlit==1.47.0
-opencv-python==4.13.0.90
-ultralytics==8.4.11
-numpy==3.1
